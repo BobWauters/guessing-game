@@ -20,6 +20,7 @@
 
     //variables for secret and user number
     const secretNumber = getRandomInt(15)
+    console.log(secretNumber)
 
 // TODO: way for users to guess (also html)
 
@@ -36,13 +37,13 @@
 
 // TODO: compare guess to secret number
 
-        console.log(document);
+
         console.log(document.getElementById('result'));
 
-        if (userGuess === secretNumber) {
-            document.getElementById('result').innerHTML = 'whoop whoop ya got it right';
+        if (userGuess == secretNumber) {
+            document.getElementById('result').innerHTML = ('whoop whoop ya got it right ' + userGuess+' ');
         } else {
-            document.getElementById('result').innerHTML = 'Ya guessed wrong, ya answer be ${userGuess} , the right answer was ';
+            document.getElementById('result').innerHTML = ('Ya guessed wrong, ya answer be ' + userGuess +' the right answer was ' + secretNumber + ' ' );
         }
 
 

@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    padding:25px;
+    margin:25px;
+}
+
+.button-container{
+    padding-bottom: 20px;
+    padding-top:20px;
+
+}
+
+.guessing-game-container{
+    border:solid 2px blue;
+    height:350px;
+}
